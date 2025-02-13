@@ -23,7 +23,7 @@
 		"generate:mongodb": "prisma generate --schema prisma/mongodb.prisma"
 	},
 	"bin": {
-		"prisma-class-generator": "dist/bin.js"
+		"prisma-class-generator": "./dist/bin.js"
 	},
 	"engines": {
 		"node": ">=14"
